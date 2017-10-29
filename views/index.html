@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All It Books - Free IT Books Download</title>
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-reboot.css.map">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css.map">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css.map">
+
+
+    <link rel="stylesheet" href="/css/index.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">All IT eBooks</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Categories
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="test">
+                                <div class="category">
+                                    <a href="/{{menu[0].name}}">{{ menu[0].name }}</a>
+                                    <ul>
+                                        {% for category in list1 %}
+                                        <li><a href="/{{menu[0].name}}/{{category.name}}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+
+                                <div class="category">
+                                    <a href="/{{ menu[1].name }}">{{ menu[1].name }}</a>
+                                    <ul>
+                                        {% for category in list2 %}
+                                        <li><a href="/{{ menu[1].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                                <div class="category">
+                                    <a href="/{{ menu[2].name }}">{{ menu[2].name }}</a>
+                                    <ul>
+                                        {% for category in list3 %}
+                                        <li><a href="/{{ menu[2].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                <div class="category">
+                                    <a href="/{{ menu[3].name }}">{{ menu[3].name }}</a>
+                                </div>
+
+                                <div class="category">
+                                    <a href="/{{ menu[4].name }}">{{ menu[4].name }}</a>
+
+                                    <ul>
+                                        {% for category in list5 %}
+                                        <li><a href="/{{ menu[4].name}}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+
+                                <div class="category">
+                                    <a href="/{{ menu[5].name }}">{{ menu[5].name }}</a>
+                                    <ul>
+                                        {% for category in list6 %}
+                                        <li><a href="/{{ menu[5].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                                <div class="category">
+                                    <a href="/{{ menu[6].name }}">{{ menu[6].name }}</a>
+                                    <ul>
+                                        {% for category in list7 %}
+                                        <li><a href="/{{ menu[6].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                                <div class="category">
+                                    <a href="/{{ menu[7].name }}">{{ menu[7].name }}</a>
+                                    <ul>
+                                        {% for category in list8 %}
+                                        <li><a href="/{{ menu[7].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                                <div class="category">
+                                    <a href="/{{ menu[8].name }}">{{ menu[8].name }}</a>
+                                    <ul>
+                                        {% for category in list9 %}
+                                        <li><a href="/{{ menu[8].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                <div class="category">
+                                    <a href="/{{ menu[9].name }}">{{ menu[9].name }}</a>
+                                </div>
+
+                                <div class="category">
+                                    <a href="/{{ menu[10].name }}">{{ menu[10].name }}</a>
+                                    <ul>
+                                        {% for category in list11 %}
+                                        <li><a href="/{{ menu[10].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                <div class="category">
+                                    <a href="/{{ menu[11].name }}">{{ menu[11].name }}</a>
+                                </div>
+                                <div class="category">
+                                    <a href="/{{ menu[12].name }}">{{ menu[12].name }}</a>
+                                </div>
+                                <div class="category">
+                                    <a href="/{{ menu[13].name }}">{{ menu[13].name }}</a>
+                                </div>
+                                <div class="category">
+                                    <a href="/{{ menu[14].name }}">{{ menu[14].name }}</a>
+                                    <ul>
+                                        {% for category in list15 %}
+                                        <li><a href="/{{ menu[14].name }}/{{ category.name }}"> {{ category.name}} </a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div id="content" class="top-content">
+        <div id="leftcontent">
+            <ul id="list-menu">
+                {% for category in menu %}
+                <li><a href="/{{ category.name }}"> {{ category.name}} </a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div id="rightcontent">
+            {% for book in books %}
+            <div class="box">
+                <a href="">
+                    <img src="http://www.allitebooks.com/wp-content/uploads/2017/09/{{ book.image }}" alt="">
+                </a>
+                <div class="box-entry">
+                    <header class="entry-header">
+                        <h2 class="entry-title">
+                            <a href="/{{ book.title }}">{{ book.title }}</a>
+                        </h2>
+                        <div class="entry-meta">
+                            <span class="author">
+                                By: {% for author in book.author %}
+                                <a href="/author/{{ author }}">{{ author }}</a>,
+                                    {% endfor %}
+                            </span>
+                        </div>
+
+                    </header>
+                    <div class="entry-summary">
+                        {{ book.description }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-area">
+            <div class="site-info">
+                <span class="copyright">
+                        Reproduction of site books is authorized only for informative purposes and strictly for personal, private use.     © 2017 All IT eBooks 
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

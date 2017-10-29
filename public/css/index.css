@@ -1,0 +1,122 @@
+body {
+    background: #f2f2f2;
+}
+li.nav-item.dropdown.show .dropdown-menu.show .test .category {
+    position: relative;
+
+}
+
+li.nav-item.dropdown.show .dropdown-menu.show .test .category a {
+    color: #c0ccdb;
+    padding: 7px 22px 11px 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 18px;
+    font-size: 14px;
+    min-width: 120px;
+    white-space: nowrap;
+    display: block;
+}
+
+li.nav-item.dropdown.show .dropdown-menu.show .test .category ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: #171d24;
+    margin: 0;
+    padding: 0;
+}
+li.nav-item.dropdown.show .dropdown-menu.show .test .category ul li a {
+    color: #c0ccdb;
+    padding: 7px 22px 11px 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 18px;
+    font-size: 14px;
+    min-width: 120px;
+    white-space: nowrap;
+    display: block;
+}
+li.nav-item.dropdown.show .dropdown-menu.show .test .category:hover ul {
+    display: block;
+}
+.dropdown-menu.show {
+    background: #171d24;
+}
+a {
+    transition: 0.3s;
+}
+div#content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 100px;
+    background: #fff;
+    width: 1000px;
+    margin: auto;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 50px;
+    border-bottom: 1px solid;
+    padding: 12px;
+}
+
+.box a {
+    width: 100%;
+}
+
+.box a img {
+    max-width: 100%;
+}
+
+body {
+    margin: auto;
+    font-size: 14px;
+}
+header {
+    margin-bottom: 50px;
+}
+ul#list-menu {
+    list-style-type: none;
+}
+
+ul#list-menu li {
+    padding: 8px;
+    font-size: 16px;
+}
+
+ul#list-menu li a {
+    color: #ff4629;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+ul#list-menu li a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+footer {
+    background: #212a34;
+    width: 100%;
+    padding: 15px;
+}
+
+.footer-area {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.site-info {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    color: #556678;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #2a3744!important;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
+    color: #f2f2f2;
+}
